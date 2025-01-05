@@ -1,0 +1,68 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and cache files
+*.csv
+*.json
+*.geojson
+*.pkl
+*.pickle
+*.db
+*.sqlite3
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Folium-generated HTML files (if you don't want to track them)
+*.html
+
+# Ignore pytest and coverage files
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Ignore distribution and build files
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# Ignore logs and local settings
+*.log
+local_settings.py
+
+# Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore macOS system files
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore Windows system files
+[Tt]humbs.db
+Desktop.ini
